@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\정태을\\source\\repos\\HeadFirstDesignPattern\\HeadFirstDesignPattern\\HeadFirstDesignPattern.csproj": {}
+    "C:\\Users\\BOK\\Desktop\\GitHub\\HeadFirstDesignPattern\\HeadFirstDesignPattern\\HeadFirstDesignPattern.csproj": {}
   },
   "projects": {
-    "C:\\Users\\정태을\\source\\repos\\HeadFirstDesignPattern\\HeadFirstDesignPattern\\HeadFirstDesignPattern.csproj": {
+    "C:\\Users\\BOK\\Desktop\\GitHub\\HeadFirstDesignPattern\\HeadFirstDesignPattern\\HeadFirstDesignPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\정태을\\source\\repos\\HeadFirstDesignPattern\\HeadFirstDesignPattern\\HeadFirstDesignPattern.csproj",
+        "projectUniqueName": "C:\\Users\\BOK\\Desktop\\GitHub\\HeadFirstDesignPattern\\HeadFirstDesignPattern\\HeadFirstDesignPattern.csproj",
         "projectName": "HeadFirstDesignPattern",
-        "projectPath": "C:\\Users\\정태을\\source\\repos\\HeadFirstDesignPattern\\HeadFirstDesignPattern\\HeadFirstDesignPattern.csproj",
-        "packagesPath": "C:\\Users\\정태을\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\정태을\\source\\repos\\HeadFirstDesignPattern\\HeadFirstDesignPattern\\obj\\",
+        "projectPath": "C:\\Users\\BOK\\Desktop\\GitHub\\HeadFirstDesignPattern\\HeadFirstDesignPattern\\HeadFirstDesignPattern.csproj",
+        "packagesPath": "C:\\Users\\BOK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BOK\\Desktop\\GitHub\\HeadFirstDesignPattern\\HeadFirstDesignPattern\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\정태을\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BOK\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
         }
       }
     }
