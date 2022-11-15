@@ -6,8 +6,11 @@ namespace HeadFirstDesignPattern
     {
         static void Main(string[] args)
         {
-            MiniDuckSimulator chapter1 = new MiniDuckSimulator();
-            chapter1.Run();
+            //MiniDuckSimulator strategy = new MiniDuckSimulator();
+            //strategy.Run();
+
+            Observer_Weather_Station.WeatherStation observer = new Observer_Weather_Station.WeatherStation();
+            observer.Run();
         }
     }
 }

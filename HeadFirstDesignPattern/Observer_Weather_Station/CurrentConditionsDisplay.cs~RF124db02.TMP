@@ -21,10 +21,10 @@ namespace HeadFirstDesignPattern.Observer_Weather_Station
         {
             System.Console.WriteLine("현재 상태 : 온도 " + temperature + " 습도 " + humidity + "%");
         }
-        public void update()
+        public void update(float temp, float humidity, float pressure)
         {
-            this.temperature = weatherData.getTemperature();
-            this.humidity = weatherData.getHumidity();
+            this.temperature = temperature;
+            this.humidity = humidity;
             // 여기서 display 호출하는게 최선인가 ? MVC 패턴에서 심화할 수 있음
             display();
         }
