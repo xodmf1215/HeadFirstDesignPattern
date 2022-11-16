@@ -7,7 +7,7 @@ namespace HeadFirstDesignPattern.Decorator_Coffe_Order
     //Beverage 객체가 들어갈 곳에 들어갈 수 있음 : Beverage 확장
     public abstract class CondimentDecorator : Beverage
     {
-        protected Beverage beverage;
+        Beverage beverage;
         public abstract string getDescription();
     }
 }

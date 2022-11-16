@@ -6,7 +6,7 @@ namespace HeadFirstDesignPattern.Decorator_Coffe_Order
 {
     public abstract class Beverage
     {
-        String description = "제목 없음";
+        protected String description = "제목 없음";
         public string getDescription()
         {
             return description;
