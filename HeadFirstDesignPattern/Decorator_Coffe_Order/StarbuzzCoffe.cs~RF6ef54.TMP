@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace HeadFirstDesignPattern.Decorator_Coffe_Order
+{
+    public class StarbuzzCoffe
+    {
+        public void Run()
+        {
+            Beverage beverage = new Espresso();
+            System.Console.WriteLine(beverage.getDescription() + "$" + beverage.cost());
+            
+            Beverage beverage1 = new DarkRoast();
+            beverage1 = new Mocha(beverage1);
+            beverage1 = new Mocha(beverage1);
+            beverage1 = new Whip(beverage1);
+            System.Console.WriteLine(beverage1.getDescription() + "$" + beverage.cost());
+
+            Beverage beverage2 = new HouseBlend();
+            beverage2 = new Soy(beverage2);
+            beverage2 = new Mocha(beverage2);
+            beverage2 = new Whip(beverage2);
+            System.Console.WriteLine(beverage2.getDescription() + "$" + beverage2.cost());
+        }
+    }
+}

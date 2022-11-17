@@ -61,7 +61,6 @@ namespace HeadFirstDesignPattern.Decorator_Coffe_Order
             beverage2 = new Mocha(beverage2);
             beverage2 = new Whip(beverage2);
             System.Console.WriteLine(beverage2.getDescription() + "$" + beverage2.cost());
-
         }
     }
 }

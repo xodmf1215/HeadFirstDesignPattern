@@ -8,10 +8,9 @@ namespace HeadFirstDesignPattern.Decorator_Coffe_Order
     public abstract class CondimentDecorator : Beverage
     {
         protected Beverage beverage;
-        //c#에서는 자바랑 다르게 
+        //c#에서는 데코레이터 패턴 모델링이 자바랑 다르다
         /*
         public abstract string getDescription();
         */
-        public abstract override string getDescription();
     }
 }
